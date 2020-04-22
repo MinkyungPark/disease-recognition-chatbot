@@ -1,6 +1,6 @@
 # diseaseRecognitionChatbot
 질병증상 질문 챗봇 (flask+keras)
-
+<br>
 
 # 폴더 구조
 ```bash
@@ -16,13 +16,13 @@
 ```
 
 <br>
-<br>
 
 # 질병 증상 분류 챗봇
 - BiLSTM 모델 사용
 - 데이터 115,711개의 증상 질문 지식인 데이터(크롤링)
 - Multi Class Classification
 - 클래스 36가지 (가래, 가슴통증, 두통, 등 ..)
+<br>
 
 # 예측 모델 구조
 Layer(type) | OutputShape | Param #
@@ -35,32 +35,40 @@ Layer(type) | OutputShape | Param #
 `dropout_2 (Dropout)` | **(None, 32)** | `0`
 `dense_2 (Dense)` | **(None, 36)** | `1,188`
 Total params : 3,715,268 <br>Trainable params : 169,668<br>Non-trainable paramas : 3,545,600 |
-
+<br>
 
 # 모델 성능
- | Precision | Recall | F1-score
+구분 | Precision | Recall | F1-score
 ---|:---:|:---:|---:
 Micro avg | 0.92 | 0.90 | 0.91
 Weighted avg | 0.93 | 0.93 | 0.93
-
+<br>
 
 # 실행 화면
 <br>
-![result](./readme/1.PNG)
+
+![1](./readme/1.PNG)
 <br>
-![result](./readme/2.PNG)
+
+![2](./readme/2.PNG)
 <br>
-![result](./readme/3.PNG)
+
+![3](./readme/3.PNG)
 <br>
-![result](./readme/4.PNG)
+
+![4](./readme/4.PNG)
 <br>
-![result](./readme/5.PNG)
+
+![5](./readme/5.PNG)
 <br>
-![result](./readme/6.PNG)
+
+![6](./readme/6.PNG)
 <br>
-![result](./readme/7.PNG)
+
+![7](./readme/7.PNG)
 <br>
-![result](./readme/8.PNG)
+
+![8](./readme/8.PNG)
 <br>
 
 # Extra
