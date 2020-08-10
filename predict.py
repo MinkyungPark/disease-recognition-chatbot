@@ -5,8 +5,8 @@ config = ConfigProto()
 config.gpu_options.allow_growth = True
 session = InteractiveSession(config=config)
 
-import keras.backend.tensorflow_backend as tb
-tb._SYMBOLIC_SCOPE.value = True
+# import keras.backend.tensorflow_backend as tb
+# tb._SYMBOLIC_SCOPE.value = True
 
 import numpy as np
 import pandas as pd
