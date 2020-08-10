@@ -4,8 +4,9 @@ from predict import get_category
 app = Flask(__name__)
 
 @app.route('/')
-def chat():
-	return render_template('main.html')
+def chat(): 
+	msg = request.args.get('msg',"없음")
+	return render_template('main.html', msg=msg)
 
 
 @app.route('/user/<name>')
