@@ -13,11 +13,10 @@ def chat():
 @app.route('/get')
 def getResponse():
 	jpype.attachThreadToJVM()
-
-    msg = request.args.get('msg')
+	msg = request.args.get('msg')
     return '제가 생각한 증상은 ' + get_category(msg) + '입니다.'
 
-
+	
 @app.route('/req')
 def getAnswer():
 	jpype.attachThreadToJVM()
