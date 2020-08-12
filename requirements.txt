@@ -1,5 +1,4 @@
 absl-py==0.9.0
-astroid @ file:///C:/ci/astroid_1592487315634/work
 astunparse==1.6.3
 beautifulsoup4==4.6.0
 cachetools==4.1.1
@@ -36,7 +35,6 @@ pandas==1.1.0
 protobuf==3.12.4
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
-pylint @ file:///C:/ci/pylint_1592482039483/work
 PySocks==1.7.1
 python-dateutil==2.8.1
 pytz==2020.1
@@ -54,7 +52,6 @@ tensorflow==2.3.0
 tensorflow-estimator==2.3.0
 termcolor==1.1.0
 threadpoolctl==2.1.0
-toml @ file:///tmp/build/80754af9/toml_1592853716807/work
 tweepy==3.9.0
 urllib3==1.25.10
 Werkzeug==1.0.1
