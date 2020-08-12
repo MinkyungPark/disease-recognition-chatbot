@@ -87,7 +87,7 @@ jdcal==1.4.1
 jedi==0.15.2
 Jinja2==2.11.2
 joblib==0.15.1
-JPype1 @ file:///C:/Anaconda/JPype1-0.7.5-cp37-cp37m-win_amd64.whl
+JPype1==1.0.2
 json5==0.9.4
 jsonschema==3.2.0
 jupyter==1.0.0
