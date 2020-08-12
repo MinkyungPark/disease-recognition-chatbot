@@ -1,9 +1,9 @@
 # %%
-from tensorflow.compat.v1 import ConfigProto
-from tensorflow.compat.v1 import InteractiveSession
-config = ConfigProto()
-config.gpu_options.allow_growth = True
-session = InteractiveSession(config=config)
+# from tensorflow.compat.v1 import ConfigProto
+# from tensorflow.compat.v1 import InteractiveSession
+# config = ConfigProto()
+# config.gpu_options.allow_growth = True
+# session = InteractiveSession(config=config)
 
 # import keras.backend.tensorflow_backend as tb
 # tb._SYMBOLIC_SCOPE.value = True
@@ -99,7 +99,7 @@ def get_category(speech):
     input_seq = txt_to_seq(pre_speech)
     input_seq = input_seq.reshape(1,512)
     result_idx = model.predict(input_seq)
-    proba = model.predict_proba(input_seq)
+    # proba = model.predict_proba(input_seq)
     result_category = idx_to_txt(result_idx, idx_to_category)
 
     # return proba, pre_speech, result_category

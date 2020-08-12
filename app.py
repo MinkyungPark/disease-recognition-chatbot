@@ -1,6 +1,7 @@
 #-*- coding:utf-8 -*-
 from flask import Flask, render_template, request, json, make_response
 from predict import get_category
+import jpype
 
 app = Flask(__name__)
 
@@ -12,15 +13,13 @@ def chat():
 
 @app.route('/get')
 def getResponse():
-	jpype.attachThreadToJVM()
 	msg = request.args.get('msg')
-    return '제가 생각한 증상은 ' + get_category(msg) + '입니다.'
+	return '제가 생각한 증상은 ' + get_category(msg) + '입니다.'
 
 	
 @app.route('/req')
 def getAnswer():
-	jpype.attachThreadToJVM()
-
+	#jpype.attachThreadToJVM()
 	msg = request.args.get('msg')
 	res = get_category(msg)
 	dic = {"answer": res}
