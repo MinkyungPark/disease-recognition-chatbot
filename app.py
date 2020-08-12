@@ -12,12 +12,16 @@ def chat():
 
 @app.route('/get')
 def getResponse():
+	jpype.attachThreadToJVM()
+
     msg = request.args.get('msg')
     return '제가 생각한 증상은 ' + get_category(msg) + '입니다.'
 
 
 @app.route('/req')
 def getAnswer():
+	jpype.attachThreadToJVM()
+
 	msg = request.args.get('msg')
 	res = get_category(msg)
 	dic = {"answer": res}
@@ -32,3 +36,4 @@ def chatUser(name):
 
 if __name__ == '__main__':
 	app.run(debug=False, threaded=False)
+
