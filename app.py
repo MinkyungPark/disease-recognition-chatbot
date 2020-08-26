@@ -1,9 +1,12 @@
 #-*- coding:utf-8 -*-
 from flask import Flask, render_template, request, json, make_response
+from flask_cors import CORS
 from predict import get_category
 import jpype
 
+
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 def chat(): 
