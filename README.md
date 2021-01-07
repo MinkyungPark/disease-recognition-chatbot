@@ -47,6 +47,8 @@ Weighted avg | 0.93 | 0.93 | 0.93
 # 실행 화면
 <br>
 
+<img src="./readme/1.PNG" width="400">
+
 ![1](./readme/1.PNG){: width="400"}
 <br>
 
