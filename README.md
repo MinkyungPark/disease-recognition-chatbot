@@ -47,28 +47,28 @@ Weighted avg | 0.93 | 0.93 | 0.93
 # 실행 화면
 <br>
 
-![1](./readme/1.PNG)
+![1](./readme/1.PNG){: width="400"}
 <br>
 
-![2](./readme/2.PNG)
+![2](./readme/2.PNG){: width="400"}
 <br>
 
-![3](./readme/3.PNG)
+![3](./readme/3.PNG){: width="400"}
 <br>
 
-![4](./readme/4.PNG)
+![4](./readme/4.PNG){: width="400"}
 <br>
 
-![5](./readme/5.PNG)
+![5](./readme/5.PNG){: width="400"}
 <br>
 
-![6](./readme/6.PNG)
+![6](./readme/6.PNG){: width="400"}
 <br>
 
-![7](./readme/7.PNG)
+![7](./readme/7.PNG){: width="400"}
 <br>
 
-![8](./readme/8.PNG)
+![8](./readme/8.PNG){: width="400"}
 <br>
 
 # Extra
