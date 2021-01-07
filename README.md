@@ -48,29 +48,13 @@ Weighted avg | 0.93 | 0.93 | 0.93
 <br>
 
 <img src="./readme/1.PNG" width="400">
-
-![1](./readme/1.PNG){: width="400"}
-<br>
-
-![2](./readme/2.PNG){: width="400"}
-<br>
-
-![3](./readme/3.PNG){: width="400"}
-<br>
-
-![4](./readme/4.PNG){: width="400"}
-<br>
-
-![5](./readme/5.PNG){: width="400"}
-<br>
-
-![6](./readme/6.PNG){: width="400"}
-<br>
-
-![7](./readme/7.PNG){: width="400"}
-<br>
-
-![8](./readme/8.PNG){: width="400"}
+<img src="./readme/2.PNG" width="400">
+<img src="./readme/3.PNG" width="400">
+<img src="./readme/4.PNG" width="400">
+<img src="./readme/5.PNG" width="400">
+<img src="./readme/6.PNG" width="400">
+<img src="./readme/7.PNG" width="400">
+<img src="./readme/8.PNG" width="400">
 <br>
 
 # Extra
